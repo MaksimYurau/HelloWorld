@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
 
-    <activity android:name=".HelloWorldActivity">
+    <activity android:name=".HelloWorldActivity"
+        android:label="@string/activity_hello_world">
         <intent-filter>
             <action android:name="android.intent.action.MAIN"/>
             <category android:name="android.intent.category.LAUNCHER"/>
         </intent-filter>
     </activity>
-        <activity android:name=".HelloUsernameActivity">
+        <activity android:name=".HelloUsernameActivity"
+            android:label="@string/activity_hello_user">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
