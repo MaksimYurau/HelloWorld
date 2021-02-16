@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
-
     <activity android:name=".HelloWorldActivity"
         android:label="@string/activity_hello_world">
         <intent-filter>
@@ -21,6 +20,7 @@
             android:label="@string/activity_hello_user">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
