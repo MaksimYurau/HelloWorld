@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello_world">Здравствуй, Мир!</string>
+    <string name="hello_username">Привет, &lt;Username&gt;!</string>
+    <string name="my_name_is">Меня зовут</string>
+    <string name="hi">Привет</string>
 </resources>
