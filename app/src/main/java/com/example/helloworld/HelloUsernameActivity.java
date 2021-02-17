@@ -2,6 +2,7 @@ package com.example.helloworld;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -21,9 +22,13 @@ public class HelloUsernameActivity extends Activity {
         messageText = findViewById(R.id.message_text);
         btnSubmit = findViewById(R.id.btn_submit);
 
+        messageText.setVisibility(View.INVISIBLE);
+
         btnSubmit.setOnClickListener(v -> {
             String name = nameEditText.getText().toString();
-            messageText.setText("Привет," + name);
+            String message = getString(R.string.hello_username, name);
+            messageText.setText(message);
+            messageText.setVisibility(View.VISIBLE);
         });
     }
 }
