@@ -8,12 +8,12 @@
         android:id="@+id/btn_hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/activity_hello_world"/>
+        android:text="@string/activity_hello_world" />
 
     <Button
         android:id="@+id/btn_hello_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/activity_hello_user"/>
+        android:text="@string/activity_hello_user" />
 
 </LinearLayout>
