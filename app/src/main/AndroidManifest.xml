@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-    <activity android:name=".HelloWorldActivity"
-        android:label="@string/activity_hello_world">
+        <activity android:name=".HelloWorldActivity"
+            android:label="@string/activity_hello_world"
+            android:theme="@style/Theme.HelloWorld.Floating">
     </activity>
         <activity android:name=".HelloUsernameActivity"
             android:label="@string/activity_hello_user">
